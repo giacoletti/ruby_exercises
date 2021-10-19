@@ -8,3 +8,8 @@ person_3 = { name: "Gaia", gender: "female", age: "24"}
 
 #Add all people to your my_group array.
 my_group = [person_1, person_2, person_3]
+
+#Iterate the array and display the information
+my_group.each do |person|
+    puts "#{person[:name]} is a #{person[:age]} years old #{person[:gender]}"
+end
