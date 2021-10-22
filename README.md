@@ -37,3 +37,17 @@ They both print "3" as result of the execution.
 In the first program we can see the variable 'x', starting from 0, adding 1 to itself three times, so we'll get 3.
 In the second program we can see the same result because at the end of the loop "y" in this case will be 3, and it will overwrite anything stored in the "x" variable.
 
+---
+
+> What does the following error message tell you?
+
+```rb
+ArgumentError: wrong number of arguments (1 for 2)
+    from (irb):1:in `calculate_product'
+    from (irb):4
+    from /Users/username/.rvm/rubies/ruby-2.0.0-p353/bin/irb:12:in `<main>'
+```
+
+This is an error from the Interactive Ruby Shell (irb), it has been called the method
+"calculate_product" on line 4 with only 1 argument instead of 2 expected by the definition of the method on line 1 of the shell.
+
