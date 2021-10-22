@@ -13,4 +13,4 @@ immediate_family.values.each do |fam_member|
     immediate_family_names.push fam_member
 end
 
-puts "#{immediate_family_names}"
+puts "#{immediate_family_names.flatten}"
