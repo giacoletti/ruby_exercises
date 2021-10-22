@@ -9,6 +9,7 @@
 The error above indicates a common typo mistake, it as been typed a closing parenthesis ')'
 instead of a closing curly bracket '}' in the 'Interactive Ruby Shell', at the 2nd line.
 
+---
 
 > Look at the following programs...
 
